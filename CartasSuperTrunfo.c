@@ -28,14 +28,12 @@ int main() {
     // Dados para a Carta 1
     printf("--- Cadastro da Carta 1 ---\n");
     printf("Estado (A-H): ");
-    // O espaco antes de %c e importante para ignorar qualquer espaco em branco pendente.
     scanf(" %c", &estado1); 
 
     printf("Codigo da Carta (ex: A01): ");
     scanf("%s", codigoCarta1);
 
     printf("Nome da Cidade: ");
-    // Lê a linha inteira, incluindo espacos, ate a quebra de linha ('\n').
     scanf(" %49[^\n]", nomeCidade1);
 
     printf("Populacao: ");
